@@ -8,3 +8,10 @@
 h1 {
     color: aliceblue;
 }
+.blue {
+    background: url(images/image1.png);
+    background-size: cover;
+}
+.text {
+    color: aliceblue;
+}
