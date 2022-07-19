@@ -1,4 +1,10 @@
 .logoimg {
     float: left;
-    margin: 7px 0 7px 7px;
+    margin: 7px 0 7px 7 px;
+}
+.green {
+    background: url(images/image.png);
+}
+h1 {
+    color: aliceblue;
 }
