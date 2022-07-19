@@ -4,6 +4,8 @@
 }
 .green {
     background: url(images/image.png);
+    background-size: cover;
+    height: 300px;
 }
 h1 {
     color: aliceblue;
@@ -11,7 +13,16 @@ h1 {
 .blue {
     background: url(images/image1.png);
     background-size: cover;
+    height: 300px;
 }
 .text {
     color: aliceblue;
+}
+div {
+    margin: auto;
+    max-width: 1219px;
+}
+.Top {
+    background: url(images/Rectangle.png);
+    background-size: cover;
 }
