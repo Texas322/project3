@@ -6,23 +6,42 @@
     background: url(images/image.png);
     background-size: cover;
     height: 300px;
-}
-h1 {
+    background-position: center;
     color: aliceblue;
+    text-align: center;
 }
 .blue {
     background: url(images/image1.png);
     background-size: cover;
     height: 300px;
-}
-.text {
+    background-position: center;
     color: aliceblue;
+    text-align: center;
 }
 div {
     margin: auto;
     max-width: 1219px;
+    padding: 55px;
+    box-sizing: border-box;
 }
-.Top {
+.HatPagge {
     background: url(images/Rectangle.png);
     background-size: cover;
+    height: 40px;
+    background-position: center;
+}
+.blue {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+}
+.green{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+h2 {
+    text-align: center;
 }
