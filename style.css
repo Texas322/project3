@@ -1,47 +1,78 @@
-.logoimg {
-    float: left;
-    margin: 7px 0 7px 7 px;
+body {
+    margin: 0px auto;
+    font-family: Roboto, sans-serif;
 }
-.green {
-    background: url(images/image.png);
-    background-size: cover;
-    height: 300px;
-    background-position: center;
-    color: aliceblue;
-    text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
 }
-.blue {
-    background: url(images/image1.png);
-    background-size: cover;
-    height: 300px;
-    background-position: center;
-    color: aliceblue;
-    text-align: center;
-}
-div {
-    margin: auto;
-    max-width: 1219px;
-    padding: 55px;
-    box-sizing: border-box;
-}
-.HatPagge {
-    background: url(images/Rectangle.png);
-    background-size: cover;
-    height: 40px;
-    background-position: center;
-}
-.blue {
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 500;
-    font-size: 48px;
-}
-.green{
-    font-family: 'Roboto';
+.titles {
+    margin-top: 48px;
+    color: #007765;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
-}
-h2 {
+    font-size: 64px;
+    line-height: 75px;
     text-align: center;
+}
+.main_container {
+    width: 100%;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.site_header {
+    width: 100%;
+    background-color: #007765;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 21;
+}
+.navigation_container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #fff;
+}
+.section_1 {
+    background: url(images/image.png) center no-repeat;
+    background-size: cover;
+    margin-top: 84px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.main_title {
+    font-size: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 84px;
+    text-align: center;
+    color: #fff;
+}
+.section_2 {
+    background-color: #fff;
+    padding-top: 55px;
+    padding-bottom: 95px;
+}
+.text_section_2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
 }
