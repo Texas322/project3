@@ -110,6 +110,10 @@ margin: 0;
 .logo {
     padding-right: 48px;
 }
+.logo_links {
+    margin-left: auto;
+    margin-right: 0px;
+}
 .logo_img {
     float: left;
     padding-right: 48px;
